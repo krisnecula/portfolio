@@ -1,0 +1,41 @@
+html, body, p {
+  margin: 1em;
+  font-family: arial;
+  color: #ccc;
+  padding-top:10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-logo {
+  height: 160px;
+  max-width: 100%
+}
+
+.header-title {
+  font-size: 60px;
+  color: #68aad6;
+}
+
+.blurb {
+  text-align: center;
+  font-size: 25px;
+  color: #ccc;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  height: 300px;
+  width: 300px;
+  margin: 1em;
+  max-width: 100%
+}
